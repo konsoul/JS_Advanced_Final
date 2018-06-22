@@ -34,7 +34,7 @@
     
     var q1 = new Question('What is the meaning of life?', ['nothing', 'something'], 1);
     var q2 = new Question('Why are you so freaking dumb?', ['I just am', 'I am not!', 'Someday I will be a real boy'], 2);
-    var q3 = new Question('What is your favorite color?', ['red', 'blue...I mean..re..AHHHHHH'], 2);
+    var q3 = new Question('What is your favorite color you moron?', ['red', 'blue...I mean..re..AHHHHHH'], 2);
 
     var questions = [q1, q2, q3];
 
