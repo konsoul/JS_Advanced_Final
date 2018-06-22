@@ -10,7 +10,7 @@ function retirement(retirementAge) {
 }
 
 //store the result of calling this function and the variable will be a function
-retirement(66)(1984);
+retirement(66)(2018);
 
 //take this code and make it cleaner by using 'closures'
 /*function interviewQuestion(job) {
