@@ -11,7 +11,7 @@
         for (var i = 0; i < this.answers.length; i++) {
             console.log(i + ': ' + this.answers[i]);
         }
-    }
+    };
 
     Question.prototype.checkAnswer = function (ans, callback) {
         var sc;
@@ -25,12 +25,12 @@
         }
         
         this.displayScore(sc);
-    }
+    };
 
     Question.prototype.displayScore = function (score) {
         console.log('You have: ' + score + ' points');
         console.log('-----------------------------');
-    }
+    };
     
     var q1 = new Question('What is the meaning of life?', ['nothing', 'something'], 1);
     var q2 = new Question('Why are you so freaking dumb?', ['I just am', 'I am not!', 'Someday I will be a real boy'], 2);
@@ -46,7 +46,7 @@
                 sc++;
             }
             return sc;
-        }
+        };
     }
     //stores the score function in keepScore variable, which has acces to the sc variable
     var keepScore = score();

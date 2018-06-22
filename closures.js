@@ -6,7 +6,7 @@ function retirement(retirementAge) {
     return function (yearOfBirth) {
         var age = 2018 - yearOfBirth;
         console.log((retirementAge - age) + a);
-    }
+    };
 }
 
 //store the result of calling this function and the variable will be a function
@@ -38,7 +38,7 @@ function interviewQuestion(job) {
         } else {
             console.log('You ain\'t nothing and you suck ' + name);
         }
-    }
+    };
 }
 
 interviewQuestion('designer')('Sammy');
